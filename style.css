@@ -81,16 +81,26 @@ a{
     }
 }
 
-@media (max-width: 425px){
-    .wrapper{
-        height: 10vw;
-    }
-}
-
 @media (max-width: 768px){
     .wrapper{
         height: 50vh;
+    } 
+}
+
+@media (max-width: 426px){
+    .wrapper{
+        height: 25vh;
+    }
+
+    input{
+        margin-top: 2vh;
+        height: 3vh;
+    }
+
+    button{
+        height: 3vh;
     }
 }
+
 
 
